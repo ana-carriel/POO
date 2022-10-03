@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    background-color: rgb(10, 11, 29);
+}
+
+ #background{
+    position:relative;
+    width: 100%;
+    bottom: 250px;
+}
+
+ #corpo{
+    position:absolute;
+    background-color: rgb(10, 11, 29);
+    width: 100%;
+    bottom: -16%;
+}
+
+#avatar{
+    width: 60%;
+    position: absolute;
+    bottom:0%;
+    margin: 0 auto;
+    left:20%;
+} 
+
+#perfil{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding-top: 1%;
+    width: 10px;
+}
+
+h1{
+    padding-left: 6px;
+}
+
+#home{
+    position: absolute;
+    top:10%;
+    width: 100%;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#home a{
+    color:aqua;
+    text-decoration: none;
+}
+
+#unifesp:link, #unifesp:visited{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#unifesp:hover, #unifesp:active{
+    background-color: rgb(10, 11, 29);
+    color:white;
+    border: 2px solid white;
+}
+
+ul{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#lista{
+    text-align: center;
+}
+
+#tabela{
+    position:absolute;
+    text-align: center;
+    top:80%;
+    left:35%;
+}
+
+table, th, td {
+    border: 1px solid white;
+  }
+
+th, td{
+    padding:10px;
+}
